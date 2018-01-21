@@ -1,0 +1,33 @@
+{
+  "author": "Ben Pevsner",
+  "name": "my-website",
+  "description": "An example website",
+  "repository": "https://github.com/ivebencrazy/learn-js-from-ben",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup ./source/index.js --o public/build/client.js --f iife",
+    "start": "npm-run-all -p watch server",
+    "server": "nodemon ./server.js",
+    "test": "jest",
+    "watch": "rollup ./source/index.js --o public/build/client.js --f iife --watch"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.4",
+    "npm-run-all": "^4.1.2",
+    "rollup": "^0.54.1"
+  }
+}
