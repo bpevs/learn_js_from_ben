@@ -6,7 +6,7 @@ These are things you will need. I will explain them more later, but it's more co
 
 Downloads
 -----------
-The only thing I'm assuming is the use of a MacOS Mavericks or above. Also, keep in mind that these are the things I am suggesting to learn Javascript, not to develop in Javascript. These suggestions are based around usefulness vs easy of installation and use.
+The only thing I'm assuming is the use of a MacOS Mavericks or above (please look up "About this Mac", and make sure you are higher than version OS X 10.9.0 Mavericks) . Also, keep in mind that these are the things I am suggesting to learn Javascript, not to develop in Javascript. These suggestions are based around usefulness vs easy of installation and use.
 
 #### Web Browser
 There are a lot of them. To start, please download [Chrome](https://www.google.com/chrome/) if you don't already have it. It has great devtools, and is usually quite standard for web developers to write on.
