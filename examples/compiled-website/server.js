@@ -4,14 +4,21 @@ var url = require("url");
 var path = require("path");
 var fs = require("fs");
 
+var CONTENT_TYPES = {
+  css: "text/css",
+  html: "text/html"
+};
+
 // The function we run on every incoming message
 var serverCallback = function(incomingMessage, response) {
 
   // Get the location of our file
-  var file = path.join(process.cwd(), "public", url.parse(incomingMessage.url).pathname);
+  var currDirectory = process.cwd();
+  var requestedPath = url.parse(incomingMessage.url).pathname;
+  var filePath = path.join(currDirectory, "public", requestedPath);
 
   // Attempt to open our file
-  fs.open(file, "r", function(error) {
+  fs.open(filePath, "r", function(error) {
 
     // If the file doesn't exist on our server, send a 404 response
     if(error) {
@@ -22,12 +29,12 @@ var serverCallback = function(incomingMessage, response) {
     }
 
     // If the requested file is a directory, append our index.html 
-    if(fs.statSync(file).isDirectory()){
-      file += 'index.html';
+    if(fs.statSync(filePath).isDirectory()){
+      filePath += 'index.html';
     }
 
     // Read our file
-    fs.readFile(file, function(error, fileText) {
+    fs.readFile(filePath, function(error, fileText) {
 
       // If there's an error, we have an error! Send back a 500 response.
       if(error) {
@@ -37,17 +44,19 @@ var serverCallback = function(incomingMessage, response) {
         return;
       }
 
+      var responseOptions = {
+        "Content-Type": "text/plain"
+      };
+
+      var matchAfterLastDot = /(?!\.)[^.]*$/
+      var fileExtension = filePath.match(matchAfterLastDot);
+
+      if (CONTENT_TYPES[fileExtension]) {
+        responseOptions["Content-Type"] = CONTENT_TYPES[fileExtension];
+      }
+
       // Send back a 200 response with the requested data.
-      var options = { "Content-Type": "text/plain" };
-
-      if (file.indexOf("css") > -1) {
-        options["Content-Type"] = "text/css";
-      }
-      else if (file.indexOf("html") > -1) {
-        options["Content-Type"] = "text/html";
-      }
-
-      response.writeHead(200, options);
+      response.writeHead(200, responseOptions);
       response.write(fileText);
       response.end();
     });
