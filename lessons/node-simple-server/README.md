@@ -325,7 +325,7 @@ Quickly! Quickly!  cd into the folder with your server.js file and type in the m
 
 Then mozy on over to http://localhost:3000 and what do we find?
 
-![Flappy Bird!](../../../images/flappy-bird.png?raw=true)
+![Flappy Bird!](../../images/flappy-bird.png?raw=true)
 
 
 Alright!!!  We did it!!! If it doesn't quite work, I've made a gist of what your code should look like, so make a few adjustments and your code looks like this:
