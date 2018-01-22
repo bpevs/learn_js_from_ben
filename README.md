@@ -57,11 +57,13 @@ This is essentially your dictionary. You'll be referencing this website a lot fo
 #### [Codeshare.io](http://codeshare.io)
 Don't need any account, just bookmark it. This is basically like a Google Docs for coding, that gives us syntax highlighting. I'll probably send you links to this when we practice things.
 
-#### [coderbyte.com](https://coderbyte.com)
-Please make an account here. We'll probably end up doing a lot of the easy and medium challenges on this site.
+
+Early Learning Resources
+---------
+These are tutorials and exercises that will quickly start getting you on your feet. Feel free to practice and learn from these. These are in the order you should probably start looking at them.
 
 #### [codecademy.com](https://www.codecademy.com)
-Honestly, it's not the greatest, but their basic tutorials do the job at least. You'll need an account for this in order to do their free courses. Please do these courses before we start, and ask me any questions if you get stuck:
+Honestly, it's not the greatest, but their basic tutorials do the job at least. You'll need an account for this in order to do their free courses. Please do these courses before we start. Sometimes it's easy to get stuck on these just because their answer validation isn't always the best, but if you look up some answers online, it's not as big a deal here:
  - [Intro to HTML](https://www.codecademy.com/courses/learn-html-elements/lessons/intro-to-html/exercises/intro?action=lesson_resume&course_redirect=learn-html)
  - [Intro to CSS](https://www.codecademy.com/courses/learn-css-selectors-visual-rules/lessons/css-setup-selectors/exercises/intro-to-css?action=lesson_resume&course_redirect=learn-css)
  - [Intro to Making a Website](https://www.codecademy.com/courses/make-a-website/lessons/site-structure/exercises/html-css?action=lesson_resume)
@@ -70,4 +72,17 @@ Honestly, it's not the greatest, but their basic tutorials do the job at least. 
 
 Please do NOT do the other courses besides these. I haven't looked at them before and I'm afraid they might teach you bad habits.
 
-#### [NodeSchool](https://nodeschool.io) is something else we will probably also use.
+#### [coderbyte.com](https://coderbyte.com)
+Please make an account here. We'll probably end up doing a lot of the easy and medium challenges on this site. It's a good site for short practice things, just getting you more familiar solving problems with code. Feel free to approach these exercieses all out of order at your leisure, and do them when you want change it up from tutorials.
+
+#### [NodeSchool](https://nodeschool.io)
+Another site with useful tutorials. I would like to check up after you do codecademy tutorials, but those should put you in a place where you can start taking a look at tutorials from nodeschool:
+ - javascripting
+ - learnyouhtml
+ - how-to-markdown
+ - learnyounode (this might be too difficult for you at this moment? Let me know if you try it.)
+
+Some parts of these should be review, but seeing it in different contexts with different examples just gets you a bit more used to seeing code.
+
+#### [learnrx](http://reactivex.io/learnrx/)
+This is very important to thinking like a Javascript developer. But it won't be easy for you. Also, you probably want to stop after completing exercise 27. Definitely ask me questions if you get stuck.
