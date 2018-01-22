@@ -1,3 +1,6 @@
+Node Static Server
+==================
+
 Well, shit.  Your website is cool, but you've gotta put it on the web!  Contrary to popular belief, websites are actually much cooler when they're ACTUALLY ON THE INTERNET.  Go figure.  You're going to need a server to put your files on the internet.  There are many ways to do this, and one of the most popular is to use Express, because it's fast and easy...
 
 If you scroll down this blog post, it's pretty easy to see that this is NOT what we're doing today.  But if getting your website up asap is your goal, here ya go.  Knock yourself out:
@@ -22,7 +25,7 @@ Just what it sounds like!  It's a server that serves [static files](http://en.wi
 ### Alright it's time to do it!
 Let's get at it!  For this tutorial, I'm going to assume that you have basic javascript knowledge, but know nothing or very little about the glorious creature that is Node.js.  By the end, though, I hope you will feel comfortable both making a server of your own, and diving deeper into Node.js!
 
-If you'd like to completely follow along, clone a copy of the empty [Server Repo](https://github.com/ivebencrazy/simple-node-server).  It'll contain our file structure and a sample website for us to serve!
+Follow along in the [Node Static Server exercise folder](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/exercises/node-static-server) by adding code to the `server.js` file.  It'll contain our file structure and a sample website for us to serve!
 
 But now we're ready!  Let's get down to business!
 
@@ -399,7 +402,7 @@ At this point, your server should work!  WOOOOOO!!!!  Keep in mind that if we wa
 
 *Note: Illustrations coming soon*
 
-We can't go through all the trouble of building this thing and not even know how it works, right?  So let's follow what happens when a request reaches our server.  Let's pretend that this is the absolute first request that is sent to our server, and our server is holding our index.html file from the [sample repo](https://github.com/ivebencrazy/simple-node-server):
+We can't go through all the trouble of building this thing and not even know how it works, right?  So let's follow what happens when a request reaches our server.  Let's pretend that this is the absolute first request that is sent to our server, and our server is holding the `index.html` file that was included in our [exercise directory](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/exercises/node-static-server):
 
 #### Step 1:
 **Our request reaches the server, and our serverCallback begins!**  It doesn't matter kind of request it is, because we're only responding with our files.  So whether it's a GET or a POST or whatever, we'll always respond with our files.
