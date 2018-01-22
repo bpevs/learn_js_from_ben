@@ -50,6 +50,9 @@ Accounts and Bookmarks
 #### [Github](https://github.com)
 Please make a Github account. This will let us more easily share code.
 
+#### [MDN Web Docs](https://developer.mozilla.org/en-US/)
+This is essentially your dictionary. You'll be referencing this website a lot for what you can do with Javascript and other web technologies.
+
 #### [Codeshare.io](http://codeshare.io)
 Don't need any account, just bookmark it. This is basically like a Google Docs for coding, that gives us syntax highlighting. I'll probably send you links to this when we practice things.
 
@@ -62,5 +65,8 @@ Honestly, it's not the greatest, but their basic tutorials do the job at least. 
  - [Intro to CSS](https://www.codecademy.com/courses/learn-css-selectors-visual-rules/lessons/css-setup-selectors/exercises/intro-to-css?action=lesson_resume&course_redirect=learn-css)
  - [Intro to Making a Website](https://www.codecademy.com/courses/make-a-website/lessons/site-structure/exercises/html-css?action=lesson_resume)
  - [Intro to Javascript](https://www.codecademy.com/courses/learn-javascript-introduction/lessons/introduction-to-javascript/exercises/intro?action=lesson_resume&course_redirect=introduction-to-javascript)
+ - [Intro to Command Line](https://www.codecademy.com/courses/learn-the-command-line)
 
 Please do NOT do the other courses besides these. I haven't looked at them before and I'm afraid they might teach you bad habits.
+
+#### [NodeSchool](https://nodeschool.io) is something else we will probably also use.
