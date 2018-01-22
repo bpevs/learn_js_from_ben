@@ -43,6 +43,7 @@ Now type `node`. A little arrow should pop up on the side. Type 2 + 2. Should l
 
 ![Node is running!](./images/node-is-running.png)
 
+Press `ctrl-c` to exit.
 We want node so that we can run non-website Javascript on our computer.
 
 Accounts and Bookmarks
