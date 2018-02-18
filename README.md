@@ -89,8 +89,8 @@ This is very important to thinking like a Javascript developer. But it won't be 
 
 Video Resources
 --------------
-[Chrome DevTools](https://www.codeschool.com/courses/discover-devtools)
-[APIs](https://www.youtube.com/watch?v=7YcW25PHnAA)
-[AJAX](https://www.youtube.com/watch?v=3l13qGLTgNw)
-[What the heck is the event loop anyway?](https://youtu.be/8aGhZQkoFbQ)
-[Scope and Closures](https://www.youtube.com/watch?v=nRZri_CHqnA)
+ - [Chrome DevTools](https://www.codeschool.com/courses/discover-devtools)
+ - [APIs](https://www.youtube.com/watch?v=7YcW25PHnAA)
+ - [AJAX](https://www.youtube.com/watch?v=3l13qGLTgNw)
+ - [What the heck is the event loop anyway?](https://youtu.be/8aGhZQkoFbQ)
+ - [Scope and Closures](https://www.youtube.com/watch?v=nRZri_CHqnA)
