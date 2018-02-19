@@ -1,4 +1,4 @@
-Node Static Server
+Lesson 5 - Node Static Server
 ==================
 
 Well, shit.  Your website is cool, but you've gotta put it on the web!  Contrary to popular belief, websites are actually much cooler when they're ACTUALLY ON THE INTERNET.  Go figure.  You're going to need a server to put your files on the internet.  There are many ways to do this, and one of the most popular is to use Express, because it's fast and easy...
@@ -424,3 +424,8 @@ We can't go through all the trouble of building this thing and not even know how
 
 #### Step 7:
 **We get more requests!** This time for the .css and .js files.  Maybe in the future, we'll have a cooler site with even more .css and .js files, but our server will still be able to serve them!
+
+
+**Additional Resources**
+ - [Learn Express](https://www.codecademy.com/learn/learn-express)
+ 

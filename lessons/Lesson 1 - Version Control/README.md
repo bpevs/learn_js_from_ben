@@ -26,3 +26,4 @@ Make a text file:
 **Additional Resources**
  - [Git Homepage](https://git-scm.com/about)
  - [Git Cheat Sheet (by Bitbucket)](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+ - [Codecademy Git Tutorial](https://www.codecademy.com/learn/learn-git)
