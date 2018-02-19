@@ -25,7 +25,7 @@ Just what it sounds like!  It's a server that serves [static files](http://en.wi
 ### Alright it's time to do it!
 Let's get at it!  For this tutorial, I'm going to assume that you have basic javascript knowledge, but know nothing or very little about the glorious creature that is Node.js.  By the end, though, I hope you will feel comfortable both making a server of your own, and diving deeper into Node.js!
 
-Follow along in the [Node Static Server exercise folder](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/exercises/node-static-server) by adding code to the `server.js` file.  It'll contain our file structure and a sample website for us to serve!
+Follow along in the [Node Static Server exercise folder](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/lessons/node-static-server/exercise) by adding code to the `server.js` file.  It'll contain our file structure and a sample website for us to serve!
 
 But now we're ready!  Let's get down to business!
 
@@ -328,7 +328,7 @@ Quickly! Quickly!  cd into the folder with your server.js file and type in the m
 
 Then mozy on over to http://localhost:3000 and what do we find?
 
-![Flappy Bird!](../../images/flappy-bird.png?raw=true)
+![Flappy Bird!](./images/flappy-bird.png?raw=true)
 
 
 Alright!!!  We did it!!! If it doesn't quite work, I've made a gist of what your code should look like, so make a few adjustments and your code looks like this:
@@ -402,7 +402,7 @@ At this point, your server should work!  WOOOOOO!!!!  Keep in mind that if we wa
 
 *Note: Illustrations coming soon*
 
-We can't go through all the trouble of building this thing and not even know how it works, right?  So let's follow what happens when a request reaches our server.  Let's pretend that this is the absolute first request that is sent to our server, and our server is holding the `index.html` file that was included in our [exercise directory](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/exercises/node-static-server):
+We can't go through all the trouble of building this thing and not even know how it works, right?  So let's follow what happens when a request reaches our server.  Let's pretend that this is the absolute first request that is sent to our server, and our server is holding the `index.html` file that was included in our [exercise directory](https://github.com/ivebencrazy/learn-js-from-ben/tree/master/lessons/node-static-server/exercise):
 
 #### Step 1:
 **Our request reaches the server, and our serverCallback begins!**  It doesn't matter kind of request it is, because we're only responding with our files.  So whether it's a GET or a POST or whatever, we'll always respond with our files.
