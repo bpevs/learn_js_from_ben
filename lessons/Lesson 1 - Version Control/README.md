@@ -19,14 +19,17 @@ What is Git?
 <p align="center">
   <img alt="Git helps organize the way a directory changes" src="./images/version-controlled-workflow.png">
 </p>
+
 ![open terminal](./images/[1]-open-terminal.png)
 ![Initialize for git](./images/[2]-git-init.png)
 ![Check the status of the repository](./images/[3]-git-status.png)
 ![Add a file change](./images/[4]-git-add.png)
 ![Commit our change](./images/[5]-commit-message.png)
+
 <p align="center">
   <img alt="Chart describing staging" src="./images/staging.png">
 </p>
+
 ![Another change!](./images/[6]-next-change.png)
 ![Add our 2nd change](./images/[7]-next-change-added.png)
 ![View the changes we made](./images/[8]-git-log.png)
