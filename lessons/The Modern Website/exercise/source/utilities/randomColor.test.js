@@ -3,7 +3,7 @@ import { randomColor } from "./randomColor";
 it("Should generate a random color", function () {
   const color = randomColor();
 
-  const [ redString, greenString, blueString ] = color.split(",");
+  const [redString, greenString, blueString] = color.split(",");
 
   const redNum = parseInt(redString.slice(4));
   const greenNum = parseInt(greenString);
