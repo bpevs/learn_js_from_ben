@@ -14,8 +14,8 @@ In order to follow this guide, you will need to setup a standardized development
 environment. To help you set up a basic, but pretty standard environment, use
 one of these:
 
-- [Windows Setup](../tips/windows-dev-setup-guide.md)
-- [Mac Setup](../tips/mac-dev-setup-guide.md)
+- [Windows Setup](./tips/windows-dev-setup-guide.md)
+- [Mac Setup](./tips/mac-dev-setup-guide.md)
 
 ### MDN Web Docs
 
