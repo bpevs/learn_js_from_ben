@@ -1,4 +1,6 @@
-Lesson 3 - Browsers and the Modern Website **Prerequisites:**
+# Browsers and the Modern Website
+
+**Prerequisites:**
 
 - [Intro to Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
   lessons 10-12
