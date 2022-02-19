@@ -26,11 +26,11 @@ use.
 
 ## The Course
 
-| Lesson                                                                 | Description                                        |
-| ---------------------------------------------------------------------- | -------------------------------------------------- |
-| [Basics](./lessons/Basics)                                             | Learn the alphabet                                 |
-| [Functions](./lessons/Functions)                                       | The most important Javascript concept              |
-| [Scope](./lessons/Scope)                                               | The other most important concept                   |
-| [Browsers and Communication](./lessons/Browsers\ and\ Communication)   | The Event Loop; Javascript is not run in a vaccuum |
-| [Version Control](./lessons/Version\ Control)                          | WTF is Git?                                        |
-| [Distributed Version Control](./lessons/Distributed\ Version\ Control) | Working together                                   |
+| Lesson                                                                   | Description                                        |
+| ------------------------------------------------------------------------ | -------------------------------------------------- |
+| [Basics](./lessons/Basics)                                               | Learn the alphabet                                 |
+| [Functions](./lessons/Functions)                                         | The most important Javascript concept              |
+| [Scope](./lessons/Scope)                                                 | The other most important concept                   |
+| [Browsers and Communication]("./lessons/Browsers%20and%20Communication") | The Event Loop; Javascript is not run in a vaccuum |
+| [Version Control](./lessons/Version%20Control)                           | WTF is Git?                                        |
+| [Distributed Version Control](./lessons/Distributed%20Version%20Control) | Working together                                   |
