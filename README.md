@@ -26,11 +26,11 @@ use.
 
 ## The Course
 
-| #   | Lesson                                                                   | Description                                        |
-| --- | ------------------------------------------------------------------------ | -------------------------------------------------- |
-| 1   | [Basics](./lessons/Basics)                                               | Learn the alphabet                                 |
-| 2   | [Functions](./lessons/Functions)                                         | The most important Javascript concept              |
-| 3   | [Scope](./lessons/Scope)                                                 | The other most important concept                   |
-| 4   | [Browsers and Communication]("./lessons/Browsers%20and%20Communication") | The Event Loop; Javascript is not run in a vaccuum |
-| 5   | [Version Control](./lessons/Version%20Control)                           | WTF is Git?                                        |
-| 6   | [Distributed Version Control](./lessons/Distributed%20Version%20Control) | Working together                                   |
+| #   | Lesson                                                                         | Description                                        |
+| --- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
+| 1   | [Basics](./lessons/Basics)                                                     | Learn the alphabet                                 |
+| 2   | ~[Functions](./lessons/Functions)~ WIP                                         | The most important Javascript concept              |
+| 3   | ~[Scope](./lessons/Scope)~ WIP                                                 | The other most important concept                   |
+| 4   | ~[Browsers and Communication]("./lessons/Browsers%20and%20Communication")~ WIP | The Event Loop; Javascript is not run in a vaccuum |
+| 5   | ~[Version Control](./lessons/Version%20Control)~ WIP                           | WTF is Git?                                        |
+| 6   | ~[Distributed Version Control](./lessons/Distributed%20Version%20Control)~ WIP | Working together                                   |
