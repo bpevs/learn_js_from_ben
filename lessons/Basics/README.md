@@ -38,7 +38,7 @@ You can clear your console at any time by using the command `clear`
 There are a few ways to declare variables that work in slightly different ways.
 We'll discuss the differences with `var` a little later, but generally:
 
-```
+```js
 // `let` is a variable that we can change later
 let var1 = "hello"
 var1 = "hello hello" // <- var1 is now "hello hello"
@@ -72,8 +72,7 @@ You can think of `=` as a command, and `==` as a question.
 
 #### Syntax Notes
 
-`%` in this case is usually called "mod" or "remainder". It is described here:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder.
+`%` in this case is usually called "mod" or "remainder". It is described [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder).
 
 `!==` is
 ["not equal to"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_inequality)
