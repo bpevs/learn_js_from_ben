@@ -1,0 +1,18 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>My App</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+
+    <div id="app">
+        <textarea v-bind:value="input" v-on:input="update"></textarea>
+        <div v-html="compiledMarkdown"></div>
+    </div>
+
+    <script type="module">
+        import "./app.js"
+    </script>
+    </body>
+  </html>

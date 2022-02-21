@@ -3,14 +3,17 @@
 ## Downloads
 
 Fortunately, Microsoft has made a tutorial for installing all the things you
-will need! Use [this tutorial](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) to install:
+will need! Use
+[this tutorial](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+to install:
 
 - VS Code
 - NVM
 - node.js (via NVM)
 - git
 
-To complete this guide, you will prooobably need to run PowerShell as an administrator (right-click)
+To complete this guide, you will prooobably need to run PowerShell as an
+administrator (right-click)
 
 ## Settings
 

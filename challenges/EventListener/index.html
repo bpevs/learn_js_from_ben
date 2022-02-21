@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+  </head>
+  <body>
+  <div id="mocha"></div>
+  <script src="https://unpkg.com/expect@%3C21/umd/expect.min.js"></script>
+  <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+  <script>mocha.setup("bdd")</script>
+
+  <script type="module">
+      import "./index.js";
+      import "./index.test.js"
+      mocha.checkLeaks();
+      mocha.run();
+  </script>
+  </body>
+</html>
