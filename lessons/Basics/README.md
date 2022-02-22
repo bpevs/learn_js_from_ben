@@ -93,11 +93,9 @@ const filtered = pets.filter((pet) => {
 
 ## After Doing "Javascripting"
 
-After completing the javascripting tutorial, I suggest to work on some toy
-problems (interview questions). I do not usually recommend doing this for actual
-interview prep, since I would advocate that working on personal projects is more
-useful. However, I think they are VERY valuable for beginners to become more
-familiar with code and how to solve problems with it.
+After completing the javascripting tutorial, I suggest to work on some practice
+problems. Just doing a bit of these can help you get a feel for how to approach
+solving problems with code.
 
 I suggest you work on some of these kinds of problems, and try to reference
 [MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -107,9 +105,26 @@ Ala, if you are working with calendar dates, seaching "Date" will bring you to
 the documentation on how to use
 [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
-I think a good place to start is to make a [codewars](https://www.codewars.com)
-account, and start working the
-[codewars "8 kyu" javascript problems](https://www.codewars.com/kata/search/javascript?q=&r[]=-8&beta=false&order_by=popularity%20desc)?
-I think the standard that people use for interview prep is
-[leetcode](https://leetcode.com/), but these might be a bit too difficult at
-this point.
+### Code Wars 
+
+I think a the place I'd recommend to start with practice problems is [codewars](https://www.codewars.com).  So I'd suggest making an account there, and start trying the
+[codewars "8 kyu" javascript problems](https://www.codewars.com/kata/search/javascript?q=&r[]=-8&beta=false&order_by=popularity%20desc).
+
+### Javascript Koans
+
+I also think that this [set of short quiz-like questions](https://github.com/liammclennan/JavaScript-Koans) is useful to go through.  They're closer to the `javascripting` tutorials in feel, but introduce a bit more nuance and syntax.
+
+I made a short video explaining how to set up and understand Javascript Koans:
+https://youtu.be/8GhDjbGJ0SI
+
+the tl;dr is:
+
+```sh
+cd ~/Desktop
+git clone https://github.com/liammclennan/JavaScript-Koans koans
+cd koans
+open jskoans.htm
+code .
+```
+
+
